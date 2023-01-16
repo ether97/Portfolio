@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Caramel&family=Caveat:wght@700&family=Cinzel+Decorative&family=Lobster&family=Noto+Serif+NP+Hmong&family=Oswald:wght@300&family=Playfair+Display&family=Short+Stack&family=Source+Code+Pro&family=Zen+Dots&display=swap");
+
+:root {
+  display: flex;
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 400;
+  background-image: url("reza-jahangir-VULVydw3nV0-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: 0 auto;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+span {
+  color: rgba(0, 0, 0, 0.5);
+}
