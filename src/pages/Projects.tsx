@@ -239,12 +239,9 @@ export function Projects() {
               >
                 Live Country API Game
               </Typography>
-              <p></p>
               <p>Backend communication via ReduxJs/Toolkit</p>
               <p>Stunning visuals via Material UI</p>
-
               <p>Framework mastery via React</p>
-
               <p>TypeScript mastery</p>
             </StyledCard>
 
@@ -254,17 +251,15 @@ export function Projects() {
                   zIndex: "100",
                   fontFamily: "Fira Code, monospace",
                   fontSize: { xs: "1rem", md: "2rem", lg: "3rem" },
+                  lineHeight: "3rem",
                 }}
               >
                 MERN Todo Application
               </Typography>
               <p>MongoDB Schema/Model/Collection Proficiency</p>
-
               <p>Backend communication via ReduxJs/Toolkit</p>
               <p>Stunning visuals via Material UI</p>
-
               <p>Framework mastery via React</p>
-
               <p>TypeScript mastery</p>
             </StyledCard>
           </Item>
@@ -286,12 +281,9 @@ export function Projects() {
                 Chat.IO Application
               </Typography>
               <p>Web client and server communication via Socket.IO</p>
-
               <p>Backend communication via Express/NodeJS</p>
               <p>Stunning visuals via Material UI</p>
-
               <p>Framework mastery via React</p>
-
               <p>TypeScript mastery</p>
             </StyledCard>
           </Item>
@@ -324,12 +316,10 @@ export function Projects() {
                 Dictionary API Application
               </Typography>
 
-              <p>-TypeScript</p>
-              <p>-Material UI</p>
-
-              <p>-Redux</p>
-
-              <p>-React</p>
+              <p>Backend communication via ReduxJs/Toolkit</p>
+              <p>Stunning visuals via Material UI</p>
+              <p>Framework mastery via React</p>
+              <p>TypeScript mastery</p>
             </StyledCard>
             <StyledCard>
               <Typography
@@ -342,9 +332,9 @@ export function Projects() {
               >
                 Clothing E-commerce Store
               </Typography>
-              <p>-TypeScript</p>
-              <p>-Bootstrap</p>
-              <p>-React</p>
+              <p>Stunning visuals via Bootstrap</p>
+              <p>Framework mastery via React</p>
+              <p>TypeScript mastery</p>
             </StyledCard>
           </Item>
         </Grid>
@@ -374,11 +364,11 @@ export function Projects() {
                   fontSize: { xs: "1rem", md: "2rem", lg: "3rem" },
                 }}
               >
-                Bakery E-Commerce Application
+                Bakery E-Commerce Store
               </Typography>
-              <p>-TypeScript</p>
-              <p>-Bootstrap</p>
-              <p>-React</p>
+              <p>Stunning visuals via Bootstrap</p>
+              <p>Framework mastery via React</p>
+              <p>TypeScript mastery</p>
             </StyledCard>
             <StyledCard>
               <Typography
@@ -391,9 +381,9 @@ export function Projects() {
               >
                 Sudoku Game
               </Typography>
-              <p>-TypeScript</p>
-              <p>-Material UI</p>
-              <p>-React</p>
+              <p>Stunning visuals via Material UI</p>
+              <p>Framework mastery via React</p>
+              <p>TypeScript mastery</p>
             </StyledCard>
           </Item>
         </Grid>
