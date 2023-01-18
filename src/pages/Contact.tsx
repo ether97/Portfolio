@@ -44,7 +44,7 @@ export function Contact() {
     >
       <div
         style={{
-          marginLeft: "50px",
+          marginLeft: "10px",
           display: "flex",
           flexDirection: "column",
           alignItems: "start",
@@ -54,7 +54,7 @@ export function Contact() {
       >
         <Typography
           sx={{
-            fontSize: "6rem",
+            fontSize: { xs: "3.5rem", md: "6rem", lg: "6rem" },
             color: "black",
             fontFamily: "Playfair Display, serif",
           }}
@@ -70,7 +70,7 @@ export function Contact() {
             name="from_name"
             // onInput={handleNameInput}
             sx={{
-              width: "930px",
+              width: { xs: "95vw", md: "930px", lg: "930px" },
               marginBottom: "10px",
               backgroundColor: "rgba(0,0,0,0.4)",
               "& label": {
@@ -104,7 +104,8 @@ export function Contact() {
             name="user_email"
             // onInput={handleEmailInput}
             sx={{
-              width: "930px",
+              width: { xs: "95vw", md: "930px", lg: "930px" },
+
               marginBottom: "10px",
               backgroundColor: "rgba(0,0,0,0.4)",
 
@@ -140,7 +141,8 @@ export function Contact() {
             name="message"
             // onInput={handleMessageInput}
             sx={{
-              width: "930px",
+              width: { xs: "95vw", md: "600px", lg: "930px" },
+
               textAlign: "end",
               backgroundColor: "rgba(0,0,0,0.4)",
               input: { color: "white", textAlign: "end" },

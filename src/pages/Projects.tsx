@@ -23,7 +23,6 @@ const StyledCard = styled(Card)(({ theme }) => ({
   marginBottom: "5px",
   backgroundColor: "black",
   // borderRadius: "5px",
-  aspectRatio: 1,
   outline: "294px solid transparent",
   color: "black",
   outlineOffset: "-152",
@@ -138,13 +137,16 @@ export function Projects() {
   return (
     <div
       style={{
-        height: "100vh",
+        height: "260vh",
         width: "100vw",
         backgroundColor: "black",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
+        padding: "0px",
+        margin: "0px",
+        overflow: "hidden",
       }}
     >
       <Card
@@ -153,9 +155,8 @@ export function Projects() {
           color: "white",
           fontFamily: "Fira Code, monospace",
           height: "700px",
-          width: "900px",
+          width: "100vw",
           zIndex: "100",
-          position: "relative",
         }}
       >
         {topics.map((topic) => (
@@ -170,7 +171,7 @@ export function Projects() {
             lineHeight: "0px",
             position: "absolute",
             // bottom: "200px",
-            top: "270px",
+            top: "400px",
             left: 0,
             right: 0,
             marginLeft: "auto",
@@ -185,7 +186,7 @@ export function Projects() {
             lineHeight: "0px",
             position: "absolute",
             // bottom: "200px",
-            top: "290px",
+            top: "420px",
             left: 0,
             right: 0,
             marginLeft: "auto",
@@ -197,18 +198,19 @@ export function Projects() {
       </Card>
       <Grid
         container
-        spacing={0}
         sx={{
           backgroundColor: "black",
-          width: "100%",
+          width: "80vw",
           position: "absolute",
-          bottom: "0",
           zIndex: "100",
+          top: "500px",
+          padding: "0px",
+          margin: "0px",
         }}
       >
         <Grid
           item
-          xs={2}
+          xs={12}
           sx={{
             backgroundColor: "transparent",
             border: "none",
@@ -246,7 +248,7 @@ export function Projects() {
             </StyledCard>
           </Item>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12}>
           <Item sx={{ height: "50vh", backgroundColor: "transparent" }}>
             <StyledCard
               sx={{ height: "100%" }}
@@ -260,7 +262,7 @@ export function Projects() {
         </Grid>
         <Grid
           item
-          xs={3}
+          xs={12}
           sx={{
             backgroundColor: "transparent",
             border: "none",
@@ -296,7 +298,7 @@ export function Projects() {
 
         <Grid
           item
-          xs={3}
+          xs={12}
           sx={{
             backgroundColor: "transparent",
             border: "none",

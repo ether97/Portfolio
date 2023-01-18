@@ -1,3 +1,4 @@
+import { Typography } from "@mui/material";
 import MuiButton from "@mui/material/Button";
 
 import { styled } from "@mui/material/styles";
@@ -39,13 +40,16 @@ export function MainDisplay() {
         <span style={{ letterSpacing: "1px", fontSize: "1.5rem" }}>&#47;</span>
         <span style={{ fontSize: "1.5rem" }}>name&gt;</span>
       </h1>
-      <h1
-        style={{
-          fontFamily: "Fira Code, monospace",
-        }}
-      >
+      <Typography style={{}}>
         <span>&lt;about&gt;</span> <br />
-        <span style={{ fontSize: "3rem", color: "black", lineHeight: "90px" }}>
+        <Typography
+          style={{
+            fontSize: "3rem",
+            color: "black",
+            lineHeight: "90px",
+            fontFamily: "Fira Code, monospace",
+          }}
+        >
           &emsp;&emsp;&emsp;Artist at heart.{" "}
           <span
             style={{
@@ -57,11 +61,11 @@ export function MainDisplay() {
             The web is my canvas.
           </span>
           <br />
-        </span>{" "}
+        </Typography>{" "}
         <span>&lt;</span>
         <span style={{ letterSpacing: "1px" }}>&#47;</span>
         <span>about&gt;</span>
-      </h1>
+      </Typography>
       {/* <Button
         sx={{ position: "absolute", bottom: "-300px" }}
         variant="contained"

@@ -19,47 +19,78 @@ export function TopicDisplay({ topic }: TopicDisplayProps) {
         top: {
           xs:
             topic.name === "NodeJs"
-              ? `${topic.top + 50}px`
+              ? `${topic.top + 220}px`
               : topic.name === "Socket.IO"
-              ? `${topic.top + 40}px`
+              ? `${topic.top + 210}px`
               : topic.name === "TypeScript"
-              ? `${topic.top + 50}px`
+              ? `${topic.top + 220}px`
+              : topic.name === "Redux"
+              ? `${topic.top + 170}px`
               : topic.name === "Vite"
-              ? `${topic.top + 50}px`
+              ? `${topic.top + 220}px`
               : topic.name === "MongoDB"
-              ? `${topic.top + 40}px`
-              : topic.name === "Bootstrap"
-              ? `${topic.top + 50}px`
-              : `${topic.top + 20}px`,
-          md: `${topic.top + 20}px`,
-          lg: `${topic.top + 20}px`,
-        },
-        left: {
-          xs:
-            topic.name === "TypeScript"
-              ? `${topic.left + 230}px`
-              : topic.name === "NodeJs"
-              ? `${topic.left + 400}px`
-              : topic.name === "Socket.IO"
-              ? `${topic.left - 80}px`
-              : topic.name === "MongoDB"
-              ? `${topic.left + 150}px`
+              ? `${topic.top + 210}px`
+              : topic.name === "JavaScript"
+              ? `${topic.top + 190}px`
               : topic.name === "Material UI"
-              ? `${topic.left + 220}px`
-              : topic.name === "NextJs"
-              ? `${topic.left + 30}px`
-              : `${topic.left + 170}px`,
-          md: `${topic.left + 170}px`,
-          lg: `${topic.left + 170}px`,
+              ? `${topic.top + 100}px`
+              : topic.name === "Bootstrap"
+              ? `${topic.top + 300}px`
+              : `${topic.top + 190}px`,
+          md:
+            topic.name === "NodeJs"
+              ? `${topic.top + 220}px`
+              : topic.name === "Socket.IO"
+              ? `${topic.top + 210}px`
+              : topic.name === "TypeScript"
+              ? `${topic.top + 220}px`
+              : topic.name === "Redux"
+              ? `${topic.top + 170}px`
+              : topic.name === "Vite"
+              ? `${topic.top + 220}px`
+              : topic.name === "MongoDB"
+              ? `${topic.top + 210}px`
+              : topic.name === "JavaScript"
+              ? `${topic.top + 190}px`
+              : topic.name === "Material UI"
+              ? `${topic.top + 100}px`
+              : topic.name === "Bootstrap"
+              ? `${topic.top + 300}px`
+              : `${topic.top + 190}px`,
+          lg:
+            topic.name === "NodeJs"
+              ? `${topic.top + 170}px`
+              : topic.name === "Socket.IO"
+              ? `${topic.top + 160}px`
+              : topic.name === "TypeScript"
+              ? `${topic.top + 170}px`
+              : topic.name === "Redux"
+              ? `${topic.top + 170}px`
+              : topic.name === "Vite"
+              ? `${topic.top + 170}px`
+              : topic.name === "MongoDB"
+              ? `${topic.top + 160}px`
+              : topic.name === "JavaScript"
+              ? `${topic.top + 170}px`
+              : topic.name === "Material UI"
+              ? `${topic.top + 50}px`
+              : topic.name === "Bootstrap"
+              ? `${topic.top + 250}px`
+              : `${topic.top + 140}px`,
         },
+        left: "0",
+        right: "0",
+        textAlign: "center",
         color: topic.color,
         fontSize: {
           xs:
             topic.name === "TypeScript"
-              ? `${topic.fontSize - 2}rem`
-              : `${topic.fontSize}rem`,
+              ? `${topic.fontSize - 2.7}rem`
+              : topic.name === "Bootstrap"
+              ? `${topic.fontSize - 0}rem`
+              : `${topic.fontSize - 0.5}rem`,
           md: `${topic.fontSize}rem`,
-          lg: `${topic.fontSize}rem`,
+          lg: `${topic.fontSize + 1}rem`,
         },
         letterSpacing: "10px",
         fontWeight: topic.fontWeight,

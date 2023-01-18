@@ -26,7 +26,13 @@ export function Layout() {
   let location = useLocation();
   return (
     <>
-      <Container fixed sx={{ display: "flex", justifyContent: "flex-end" }}>
+      <Container
+        fixed
+        sx={{
+          display: "flex",
+          justifyContent: "flex-end",
+        }}
+      >
         <AppBar
           sx={{
             display: "flex",
@@ -35,7 +41,7 @@ export function Layout() {
             // color: "bla",
             boxShadow: "none",
             height: "70px",
-            width: "1300px",
+            width: "90vw",
             // mr: "auto",
           }}
           position="fixed"
@@ -50,7 +56,7 @@ export function Layout() {
           >
             <Card
               sx={{
-                width: { xs: "400px", md: "600px", lg: "600px" },
+                width: { xs: "90vw", md: "600px", lg: "600px" },
                 display: "flex",
                 justifyContent: "space-between",
                 background: "transparent",
@@ -69,7 +75,7 @@ export function Layout() {
                     location.pathname === "/contact"
                       ? "black"
                       : "white",
-                  fontSize: "1rem",
+                  fontSize: { xs: "0.8rem", md: "1rem", lg: "1rem" },
                 }}
                 color="inherit"
               >
@@ -77,7 +83,7 @@ export function Layout() {
                 <span
                   style={{
                     letterSpacing: "1px",
-                    fontSize: "1rem",
+                    fontSize: "0.8rem",
                     color:
                       location.pathname === "/" ||
                       location.pathname === "/contact"
@@ -103,7 +109,7 @@ export function Layout() {
                       ? "black"
                       : "white",
 
-                  fontSize: "1rem",
+                  fontSize: { xs: "0.8rem", md: "1rem", lg: "1rem" },
                 }}
                 color="inherit"
               >
@@ -111,7 +117,7 @@ export function Layout() {
                 <span
                   style={{
                     letterSpacing: "1px",
-                    fontSize: "1rem",
+                    fontSize: "0.8rem",
                     color:
                       location.pathname === "/" ||
                       location.pathname === "/contact"
@@ -137,7 +143,7 @@ export function Layout() {
                       ? "black"
                       : "white",
 
-                  fontSize: "1rem",
+                  fontSize: { xs: "0.8rem", md: "1rem", lg: "1rem" },
                 }}
                 color="inherit"
               >
@@ -145,7 +151,7 @@ export function Layout() {
                 <span
                   style={{
                     letterSpacing: "1px",
-                    fontSize: "1rem",
+                    fontSize: "0.8rem",
                     color:
                       location.pathname === "/" ||
                       location.pathname === "/contact"
@@ -161,9 +167,12 @@ export function Layout() {
                 href="/Resume.pdf"
                 size="large"
                 sx={{
+                  fontSize: { xs: "0.8rem", md: "1rem", lg: "1rem" },
+
                   fontFamily: "Fira Code, monospace",
-                  color: "white",
-                  backgroundColor: "black",
+                  color: location.pathname === "/projects" ? "black" : "white",
+                  backgroundColor:
+                    location.pathname === "/projects" ? "white" : "black",
                 }}
                 color="inherit"
               >

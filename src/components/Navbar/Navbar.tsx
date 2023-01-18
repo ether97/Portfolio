@@ -42,99 +42,91 @@ export function Navbar() {
             height: "70px",
           }}
         >
-          <div
-            style={{
-              width: "500px",
-              display: "flex",
-              justifyContent: "space-between",
+          <Link
+            underline="none"
+            component={RouterLink}
+            to="/"
+            sx={{
+              fontFamily: "Fira Code, monospace",
+              //   fontWeight: "bold",
+              color: "white",
+              fontSize: "1.5rem",
             }}
+            color="inherit"
           >
-            <Link
-              underline="none"
-              component={RouterLink}
-              to="/"
-              sx={{
-                fontFamily: "Fira Code, monospace",
-                //   fontWeight: "bold",
-                color: "white",
+            &lt;Home
+            <span
+              style={{
+                letterSpacing: "1px",
                 fontSize: "1.5rem",
+                color: "black",
               }}
-              color="inherit"
             >
-              &lt;Home
-              <span
-                style={{
-                  letterSpacing: "1px",
-                  fontSize: "1.5rem",
-                  color: "black",
-                }}
-              >
-                &#47;
-              </span>
-              &gt;
-            </Link>
-            <Link
-              underline="none"
-              component={RouterLink}
-              to="/projects"
-              sx={{
-                fontFamily: "Fira Code, monospace",
-                // fontWeight: "bold",
-                color: "white",
+              &#47;
+            </span>
+            &gt;
+          </Link>
+          <Link
+            underline="none"
+            component={RouterLink}
+            to="/projects"
+            sx={{
+              fontFamily: "Fira Code, monospace",
+              // fontWeight: "bold",
+              color: "white",
 
+              fontSize: "1.5rem",
+            }}
+            color="inherit"
+          >
+            &lt;Projects
+            <span
+              style={{
+                letterSpacing: "1px",
                 fontSize: "1.5rem",
+                color: "black",
               }}
-              color="inherit"
             >
-              &lt;Projects
-              <span
-                style={{
-                  letterSpacing: "1px",
-                  fontSize: "1.5rem",
-                  color: "black",
-                }}
-              >
-                &#47;
-              </span>
-              &gt;
-            </Link>
-            <Link
-              underline="none"
-              component={RouterLink}
-              to="/contact"
-              sx={{
-                fontFamily: "Fira Code, monospace",
-                // fontWeight: "bold",
-                color: "white",
+              &#47;
+            </span>
+            &gt;
+          </Link>
+          <Link
+            underline="none"
+            component={RouterLink}
+            to="/contact"
+            sx={{
+              fontFamily: "Fira Code, monospace",
+              // fontWeight: "bold",
+              color: "white",
 
+              fontSize: "1.5rem",
+            }}
+            color="inherit"
+          >
+            &lt;Contact
+            <span
+              style={{
+                letterSpacing: "1px",
                 fontSize: "1.5rem",
+                color: "black",
               }}
-              color="inherit"
             >
-              &lt;Contact
-              <span
-                style={{
-                  letterSpacing: "1px",
-                  fontSize: "1.5rem",
-                  color: "black",
-                }}
-              >
-                &#47;
-              </span>
-              &gt;
-            </Link>
-            <Button
-              size="large"
-              sx={{
-                fontFamily: "Fira Code, monospace",
-                color: "white",
-                backgroundColor: "black",
-              }}
-              color="inherit"
-            >
-              Resume
-            </Button>
-          </div>
+              &#47;
+            </span>
+            &gt;
+          </Link>
+          <Button
+            size="large"
+            sx={{
+              fontFamily: "Fira Code, monospace",
+              color: "white",
+              backgroundColor: "black",
+            }}
+            color="inherit"
+          >
+            hi
+          </Button>
         </Toolbar>
       </AppBar>
     </Container>
