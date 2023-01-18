@@ -41,7 +41,7 @@ export function Layout() {
             // color: "bla",
             boxShadow: "none",
             height: "70px",
-            width: "90vw",
+            width: "100vw",
             // mr: "auto",
           }}
           position="fixed"
@@ -76,6 +76,7 @@ export function Layout() {
                       ? "black"
                       : "white",
                   fontSize: { xs: "0.8rem", md: "1rem", lg: "1rem" },
+                  lineHeight: "2rem",
                 }}
                 color="inherit"
               >
@@ -110,6 +111,7 @@ export function Layout() {
                       : "white",
 
                   fontSize: { xs: "0.8rem", md: "1rem", lg: "1rem" },
+                  lineHeight: "2rem",
                 }}
                 color="inherit"
               >
@@ -144,6 +146,7 @@ export function Layout() {
                       : "white",
 
                   fontSize: { xs: "0.8rem", md: "1rem", lg: "1rem" },
+                  lineHeight: "2rem",
                 }}
                 color="inherit"
               >
@@ -173,6 +176,7 @@ export function Layout() {
                   color: location.pathname === "/projects" ? "black" : "white",
                   backgroundColor:
                     location.pathname === "/projects" ? "white" : "black",
+                  lineHeight: "1rem",
                 }}
                 color="inherit"
               >

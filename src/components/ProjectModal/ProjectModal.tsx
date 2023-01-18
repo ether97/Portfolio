@@ -16,12 +16,13 @@ export function ProjectModal({ open, setOpen, video }: ProjectModalType) {
         alignItems: "center",
         justifyContent: "center",
         outline: "none",
+        gap: "50px",
       }}
     >
       <Box
         sx={{
           height: "80vh",
-          width: "50vw",
+          width: "90vw",
           outline: "none",
           boxShadow: "1px -1px 50px white",
           backgroundColor: "black",
@@ -29,6 +30,7 @@ export function ProjectModal({ open, setOpen, video }: ProjectModalType) {
           alignItems: "center",
           justifyContent: "center",
           flexDirection: "column",
+          gap: "50px",
           //   borderRadius: "10px",
         }}
       >
@@ -42,7 +44,7 @@ export function ProjectModal({ open, setOpen, video }: ProjectModalType) {
         </h1>
         <video
           src={video}
-          width="900"
+          width="90%"
           height="600"
           loop={true}
           muted={true}

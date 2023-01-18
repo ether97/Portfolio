@@ -19,6 +19,8 @@ const StyledCard = styled(Card)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
+  flexDirection: "column",
+  gap: "10px",
   height: "50%",
   marginBottom: "5px",
   backgroundColor: "black",
@@ -137,7 +139,7 @@ export function Projects() {
   return (
     <div
       style={{
-        height: "260vh",
+        height: "270vh",
         width: "100vw",
         backgroundColor: "black",
         display: "flex",
@@ -227,36 +229,70 @@ export function Projects() {
             }}
           >
             <StyledCard>
-              <div
-                style={{
-                  height: "99%",
-                  backgroundColor: "black",
-                  width: "99%",
+              <Typography
+                sx={{
+                  zIndex: "100",
+                  fontSize: { xs: "1rem", md: "2rem", lg: "3rem" },
+
+                  fontFamily: "Fira Code, monospace",
                 }}
               >
-                <h1
-                  style={{ zIndex: "100", fontFamily: "Fira Code, monospace" }}
-                >
-                  PROJECT
-                </h1>
-              </div>
+                Live Country API Game
+              </Typography>
+              <p></p>
+              <p>Backend communication via ReduxJs/Toolkit</p>
+              <p>Stunning visuals via Material UI</p>
+
+              <p>Framework mastery via React</p>
+
+              <p>TypeScript mastery</p>
             </StyledCard>
+
             <StyledCard>
-              <h1 style={{ zIndex: "100", fontFamily: "Fira Code, monospace" }}>
-                Bakery App
-              </h1>
+              <Typography
+                sx={{
+                  zIndex: "100",
+                  fontFamily: "Fira Code, monospace",
+                  fontSize: { xs: "1rem", md: "2rem", lg: "3rem" },
+                }}
+              >
+                MERN Todo Application
+              </Typography>
+              <p>MongoDB Schema/Model/Collection Proficiency</p>
+
+              <p>Backend communication via ReduxJs/Toolkit</p>
+              <p>Stunning visuals via Material UI</p>
+
+              <p>Framework mastery via React</p>
+
+              <p>TypeScript mastery</p>
             </StyledCard>
           </Item>
         </Grid>
+
         <Grid item xs={12}>
           <Item sx={{ height: "50vh", backgroundColor: "transparent" }}>
             <StyledCard
               sx={{ height: "100%" }}
               onClick={() => handleClick(VIDEO1)}
             >
-              <h1 style={{ zIndex: "100", fontFamily: "Fira Code, monospace" }}>
-                Chat Application
-              </h1>
+              <Typography
+                sx={{
+                  zIndex: "100",
+                  fontFamily: "Fira Code, monospace",
+                  fontSize: { xs: "1rem", md: "2rem", lg: "3rem" },
+                }}
+              >
+                Chat.IO Application
+              </Typography>
+              <p>Web client and server communication via Socket.IO</p>
+
+              <p>Backend communication via Express/NodeJS</p>
+              <p>Stunning visuals via Material UI</p>
+
+              <p>Framework mastery via React</p>
+
+              <p>TypeScript mastery</p>
             </StyledCard>
           </Item>
         </Grid>
@@ -278,20 +314,37 @@ export function Projects() {
             }}
           >
             <StyledCard>
-              <h1 style={{ zIndex: "100", fontFamily: "Fira Code, monospace" }}>
-                PROJECT
-              </h1>
+              <Typography
+                sx={{
+                  zIndex: "100",
+                  fontFamily: "Fira Code, monospace",
+                  fontSize: { xs: "1rem", md: "2rem", lg: "3rem" },
+                }}
+              >
+                Dictionary API Application
+              </Typography>
+
+              <p>-TypeScript</p>
+              <p>-Material UI</p>
+
+              <p>-Redux</p>
+
+              <p>-React</p>
             </StyledCard>
             <StyledCard>
-              <h1
-                style={{
+              <Typography
+                sx={{
                   zIndex: "100",
+                  fontSize: { xs: "1rem", md: "2rem", lg: "3rem" },
 
                   fontFamily: "Fira Code, monospace",
                 }}
               >
-                PROJECT
-              </h1>
+                Clothing E-commerce Store
+              </Typography>
+              <p>-TypeScript</p>
+              <p>-Bootstrap</p>
+              <p>-React</p>
             </StyledCard>
           </Item>
         </Grid>
@@ -314,20 +367,33 @@ export function Projects() {
             }}
           >
             <StyledCard>
-              <h1
-                style={{
+              <Typography
+                sx={{
                   zIndex: "100",
-
                   fontFamily: "Fira Code, monospace",
+                  fontSize: { xs: "1rem", md: "2rem", lg: "3rem" },
                 }}
               >
-                PROJECT
-              </h1>
+                Bakery E-Commerce Application
+              </Typography>
+              <p>-TypeScript</p>
+              <p>-Bootstrap</p>
+              <p>-React</p>
             </StyledCard>
             <StyledCard>
-              <h1 style={{ zIndex: "100", fontFamily: "Fira Code, monospace" }}>
-                PROJECT
-              </h1>
+              <Typography
+                sx={{
+                  zIndex: "100",
+                  fontFamily: "Fira Code, monospace",
+
+                  fontSize: { xs: "1rem", md: "2rem", lg: "3rem" },
+                }}
+              >
+                Sudoku Game
+              </Typography>
+              <p>-TypeScript</p>
+              <p>-Material UI</p>
+              <p>-React</p>
             </StyledCard>
           </Item>
         </Grid>
