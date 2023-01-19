@@ -6,6 +6,12 @@ import { ProjectModal } from "../components/ProjectModal/ProjectModal";
 import { useState } from "react";
 
 import VIDEO1 from "../assets/Chat_App.mp4";
+import VIDEO2 from "../assets/clothing_store.mp4";
+import VIDEO3 from "../assets/country.mp4";
+import VIDEO4 from "../assets/folder.mp4";
+import VIDEO5 from "../assets/sudoku.mp4";
+import VIDEO6 from "../assets/todo.mp4";
+import VIDEO7 from "../assets/bakery.mp4";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -228,7 +234,7 @@ export function Projects() {
               boxShadow: "none",
             }}
           >
-            <StyledCard>
+            <StyledCard onClick={() => handleClick(VIDEO3)}>
               <Typography
                 sx={{
                   zIndex: "100",
@@ -245,7 +251,7 @@ export function Projects() {
               <p>TypeScript mastery</p>
             </StyledCard>
 
-            <StyledCard>
+            <StyledCard onClick={() => handleClick(VIDEO4)}>
               <Typography
                 sx={{
                   zIndex: "100",
@@ -305,7 +311,7 @@ export function Projects() {
               boxShadow: "none",
             }}
           >
-            <StyledCard>
+            <StyledCard onClick={() => handleClick(VIDEO6)}>
               <Typography
                 sx={{
                   zIndex: "100",
@@ -313,7 +319,7 @@ export function Projects() {
                   fontSize: { xs: "1rem", md: "2rem", lg: "3rem" },
                 }}
               >
-                Dictionary API Application
+                Redux Todo Application
               </Typography>
 
               <p>Backend communication via ReduxJs/Toolkit</p>
@@ -321,7 +327,7 @@ export function Projects() {
               <p>Framework mastery via React</p>
               <p>TypeScript mastery</p>
             </StyledCard>
-            <StyledCard>
+            <StyledCard onClick={() => handleClick(VIDEO2)}>
               <Typography
                 sx={{
                   zIndex: "100",
@@ -356,7 +362,7 @@ export function Projects() {
               boxShadow: "none",
             }}
           >
-            <StyledCard>
+            <StyledCard onClick={() => handleClick(VIDEO7)}>
               <Typography
                 sx={{
                   zIndex: "100",
@@ -370,7 +376,7 @@ export function Projects() {
               <p>Framework mastery via React</p>
               <p>TypeScript mastery</p>
             </StyledCard>
-            <StyledCard>
+            <StyledCard onClick={() => handleClick(VIDEO5)}>
               <Typography
                 sx={{
                   zIndex: "100",

@@ -47,7 +47,7 @@ export function ProjectModal({ open, setOpen, video }: ProjectModalType) {
           width="90%"
           height="600"
           loop={true}
-          muted={true}
+          muted={false}
           autoPlay
         ></video>
       </Box>
