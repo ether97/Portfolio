@@ -167,7 +167,7 @@ export function Layout() {
                 &gt;
               </Link>
               <Button
-                href="/Resume.pdf"
+                href="/Updated_Resume.pdf"
                 size="large"
                 sx={{
                   fontSize: { xs: "0.8rem", md: "1rem", lg: "1rem" },
