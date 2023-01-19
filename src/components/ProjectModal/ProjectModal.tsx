@@ -40,19 +40,19 @@ export function ProjectModal({ open, setOpen, video }: ProjectModalType) {
             color: "white",
           }}
         >
-          {video === "/src/assets/country.mp4"
+          {video === "Portfolio/src/assets/country.mp4"
             ? "Country API Game"
-            : video === "/src/assets/Chat_App.mp4"
+            : video === "Portfolio/src/assets/Chat_App.mp4"
             ? "Socket.IO Chat App"
-            : video === "/src/assets/clothing_store.mp4"
+            : video === "Portfolio/src/assets/clothing_store.mp4"
             ? "E-commerce Clothing App"
-            : video === "/src/assets/bakery.mp4"
+            : video === "Portfolio/src/assets/bakery.mp4"
             ? "E-commerce Bakery App"
-            : video === "/src/assets/folder.mp4"
+            : video === "Portfolio/src/assets/folder.mp4"
             ? "MERN Stack Todo App"
-            : video === "/src/assets/todo.mp4"
+            : video === "Portfolio/src/assets/todo.mp4"
             ? "Redux Todo App"
-            : video === "/src/assets/sudoku.mp4"
+            : video === "Portfolio/src/assets/sudoku.mp4"
             ? "Sudoku Game"
             : ""}
         </h1>
